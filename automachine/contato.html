@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Contato - AutoMachine Blog" />
+  <title>Contato - AutoMachine Blog</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>AutoMachine Blog</h1>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="post1.html">Blog</a>
+      <a href="sobre.html">Sobre</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Contato</h2>
+      <p>Quer falar com a gente? Envie um e-mail para <a href="mailto:contato@automachine.com">contato@automachine.com</a> ou preencha o formulário abaixo:</p>
+      <form>
+        <label for="name">Nome:</label><br/>
+        <input type="text" id="name" name="name" required /><br/><br/>
+        
+        <label for="email">E-mail:</label><br/>
+        <input type="email" id="email" name="email" required /><br/><br/>
+        
+        <label for="message">Mensagem:</label><br/>
+        <textarea id="message" name="message" rows="5" required></textarea><br/><br/>
+        
+        <button type="submit">Enviar</button>
+      </form>
+      <p><em>Observação: O formulário é apenas visual. Para funcionalidade real, precisa integrar backend.</em></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 AutoMachine Blog. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
